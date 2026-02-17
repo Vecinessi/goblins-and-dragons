@@ -1,73 +1,58 @@
-# React + TypeScript + Vite
+# 🐉 Goblins & Dragons
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Um sistema de campanhas para RPG baseado em D&D 2024.**
 
-Currently, two official plugins are available:
+Goblins & Dragons é uma aplicação web moderna desenhada para Mestres de RPG que desejam gerenciar suas campanhas, monstros e notas de forma eficiente e visualmente imersiva. Com uma interface rica e intuitiva, o sistema simplifica a gestão de combate e narrativa.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Funcionalidades
 
-## React Compiler
+O sistema conta com um conjunto robusto de ferramentas para auxiliar na mestragem:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **📜 Visualização de Fichas**: Fichas de monstros completas, traduzidas e formatadas para leitura rápida durante o jogo.
+- **🧮 Cálculo Automático de Modificadores**: Insira os valores de atributos e o sistema calcula automaticamente os modificadores (ex: Força 18 -> +4).
+- **📝 Módulo de Notas Robusto**: Um editor de texto rico (Rich Text) com suporte a organização por pastas e arquivos. Salve, edite e organize suas anotações de campanha livremente.
+- **👾 Banco de Dados Pré-definido**: Centenas de monstros do D&D (SRD) já cadastrados e prontos para uso.
+- **🛠️ Monstros Customizados**: Crie seus próprios monstros com suporte total a todos os campos da ficha (ações, reações, lendárias).
+- **🌍 Múltiplas Campanhas**: Crie e gerencie várias campanhas simultaneamente, mantendo notas e NPCs separados por contexto.
+- **🎲 Módulo de Rolagem**: Rolador de dados integrado para testes rápidos.
+- **👤 Criação de NPCs**: Gerenciador de Personagens do Mestre (PDMs) para criar e armazenar fichas de aliados e vilões.
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Este projeto foi construído com foco em performance e experiência de usuário, utilizando as tecnologias mais modernas do ecossistema JavaScript:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **[React](https://react.dev/)**: Biblioteca para construção de interfaces de usuário.
+- **[TypeScript](https://www.typescriptlang.org/)**: Tipagem estática para maior segurança e manutenibilidade do código.
+- **[Vite](https://vitejs.dev/)**: Build tool de próxima geração para desenvolvimento rápido.
+- **[TailwindCSS](https://tailwindcss.com/)**: Framework CSS utility-first para estilização ágil e responsiva.
+- **Persistence**: Dados persistidos localmente via JSON e LocalStorage.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📦 Instalação e Uso
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Siga os passos abaixo para rodar o projeto localmente:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/seu-usuario/goblins-and-dragons.git
+   ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+2. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+3. **Inicie o servidor de desenvolvimento:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Acesse a aplicação:**
+   Abra seu navegador em `http://localhost:5173` (ou a porta indicada no terminal).
+
+## 📂 Estrutura de Arquivos de Dados
+
+Os dados vitais do sistema estão organizados da seguinte forma:
+
+- **`src/data/monsters.json`**: Contém o bestiário "core" do sistema. É um arquivo estático com centenas de monstros pré-definidos.
+- **`src/data/custom_monsters.json`**: Armazena os monstros criados pelo usuário.
+- **`src/data/campaigns.json`** (Gerado dinamicamente/LocalStorage): Onde são salvos os estados das campanhas e notas.
