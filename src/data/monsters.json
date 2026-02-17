@@ -1,0 +1,2128 @@
+[
+  {
+    "id": "fefbf2e4-4cb2-43f2-92f4-042e399ec5df",
+    "name": "Aarakocra Aeromancer",
+    "type": "Elemental",
+    "size": "Médio",
+    "alignment": "N",
+    "ac": 16,
+    "hp": 66,
+    "speed": {
+      "walk": 20,
+      "fly": 50
+    },
+    "cr": 4,
+    "passivePerception": 17,
+    "attributes": {
+      "str": 10,
+      "dex": 16,
+      "con": 12,
+      "int": 12,
+      "wis": 16,
+      "cha": 12
+    },
+    "skills": {
+      "Arcanismo": 2,
+      "Natureza": 2,
+      "Percepção": 4
+    },
+    "senses": null,
+    "resistances": [],
+    "immunities": [],
+    "loot": "Implements, Individual",
+    "languages": "Aarakocra, Primordial (Auran)",
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "18 Bludgeoning, Lightning dano."
+      },
+      {
+        "name": "Ataque 2 (Ranged)",
+        "description": "18 Bludgeoning, Lightning dano."
+      }
+    ],
+    "reactions": [
+      {
+        "name": "Reação",
+        "description": "Feather Fall cast feather fall"
+      }
+    ],
+    "legendaryActions": [],
+    "regionalEffects": []
+  },
+  {
+    "id": "f8a4fc55-90ab-4812-ae68-256c09b4fa5d",
+    "name": "Aarakocra Skirmisher",
+    "type": "Elemental",
+    "size": "Médio",
+    "alignment": "N",
+    "ac": 12,
+    "hp": 11,
+    "speed": {
+      "walk": 20,
+      "fly": 50
+    },
+    "cr": 0.25,
+    "passivePerception": 15,
+    "attributes": {
+      "str": 10,
+      "dex": 14,
+      "con": 12,
+      "int": 10,
+      "wis": 12,
+      "cha": 10
+    },
+    "skills": {
+      "Percepção": 4
+    },
+    "senses": null,
+    "resistances": [],
+    "immunities": [],
+    "loot": "Implements, Individual",
+    "languages": "Aarakocra, Primordial (Auran)",
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "4 Slashing dano."
+      },
+      {
+        "name": "Ataque 2 (Melee)",
+        "description": "7 Piercing, Thunder dano."
+      },
+      {
+        "name": "Ataque 3 (Ranged)",
+        "description": "7 Piercing, Thunder dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Atk 1 if  moving 30ft+ 9 damage"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "regionalEffects": []
+  },
+  {
+    "id": "7d75a1c6-b5b2-4e8f-a9e1-7696a599a59f",
+    "name": "Aberrant Cultist",
+    "type": "Humanoide",
+    "size": "Médio",
+    "alignment": "NM",
+    "ac": 14,
+    "hp": 137,
+    "speed": {
+      "walk": 30
+    },
+    "cr": 8,
+    "passivePerception": 17,
+    "attributes": {
+      "str": 10,
+      "dex": 18,
+      "con": 12,
+      "int": 16,
+      "wis": 18,
+      "cha": 14
+    },
+    "skills": {
+      "Arcanismo": 3,
+      "Percepção": 3,
+      "Religião": 3
+    },
+    "senses": "Visão no escuro 90 ft.",
+    "resistances": [],
+    "immunities": [],
+    "loot": "Individual, Relics",
+    "languages": "Common, Deep Speech, Telepathy",
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "21 Slashing, Psychic dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Atk 1 on hit grappled and restrained, Mind Rot within 90ft on fail poisoned"
+      }
+    ],
+    "reactions": [
+      {
+        "name": "Reação",
+        "description": "Counterspell cast counterspell"
+      }
+    ],
+    "legendaryActions": [],
+    "regionalEffects": []
+  },
+  {
+    "id": "2b88c709-d8f3-4dea-9c5a-97d0711fa39b",
+    "name": "Aboleth",
+    "type": "Aberração",
+    "size": "Grande",
+    "alignment": "LM",
+    "ac": 17,
+    "hp": 150,
+    "speed": {
+      "walk": 10,
+      "swim": 40
+    },
+    "cr": 10,
+    "passivePerception": 20,
+    "attributes": {
+      "str": 20,
+      "dex": 8,
+      "con": 14,
+      "int": 18,
+      "wis": 14,
+      "cha": 18
+    },
+    "skills": {
+      "História": 8,
+      "Percepção": 8
+    },
+    "senses": "Visão às cegas 120 ft.",
+    "resistances": [],
+    "immunities": [],
+    "loot": "Relics",
+    "languages": "Deep Speech, Telepathy",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "description": ""
+      },
+      {
+        "name": "Eldritch Restoration",
+        "description": ""
+      },
+      {
+        "name": "Mucus Cloud",
+        "description": ""
+      },
+      {
+        "name": "Probing Telepathy",
+        "description": ""
+      }
+    ],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "12 Bludgeoning dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Akt 1 grapples, 30ft that is charmed or grappled takes 10 psychic damage and gains memories if target is reduced to 0, 30ft charmes"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "Makes another attack or regains 5hp"
+      }
+    ],
+    "regionalEffects": [
+      {
+        "name": "Efeito Regional",
+        "description": "On fail poisoned, Cast Project Image with a 1 mile range"
+      }
+    ]
+  },
+  {
+    "id": "a12e9cc5-c855-40ef-bfc8-2ada95182c1a",
+    "name": "Abominable Yeti",
+    "type": "Monstruosidade",
+    "size": "Enorme",
+    "alignment": "CM",
+    "ac": 15,
+    "hp": 137,
+    "speed": {
+      "walk": 40,
+      "climb": 40
+    },
+    "cr": 9,
+    "passivePerception": 19,
+    "attributes": {
+      "str": 24,
+      "dex": 10,
+      "con": 22,
+      "int": 8,
+      "wis": 12,
+      "cha": 8
+    },
+    "skills": {
+      "Percepção": 8,
+      "Furtividade": 8
+    },
+    "senses": "Visão no escuro 60 ft.",
+    "resistances": [],
+    "immunities": [
+      "Cold"
+    ],
+    "loot": "Any",
+    "languages": "Yeti",
+    "traits": [
+      {
+        "name": "Fear of Fire",
+        "description": ""
+      }
+    ],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "21 Slashing, Cold dano."
+      },
+      {
+        "name": "Ataque 2 (Ranged)",
+        "description": "19 Bludgeoning, Cold dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Chilling Gaze within 30ft on fail 21 cold damage and paralyzed, Cold Breath recharges on 6 30ft cone on fail 45 cold damage"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "regionalEffects": []
+  },
+  {
+    "id": "309249eb-a638-4388-b665-9d0aac61dbbf",
+    "name": "Adult Black Dragon",
+    "type": "Dragão",
+    "size": "Enorme",
+    "alignment": "CM",
+    "ac": 19,
+    "hp": 195,
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "swim": 40
+    },
+    "cr": 14,
+    "passivePerception": 21,
+    "attributes": {
+      "str": 22,
+      "dex": 14,
+      "con": 20,
+      "int": 14,
+      "wis": 12,
+      "cha": 18
+    },
+    "skills": {
+      "Furtividade": 5,
+      "Percepção": 10
+    },
+    "senses": "Visão às cegas 60 ft., Visão no escuro 120 ft.",
+    "resistances": [],
+    "immunities": [
+      "Acid"
+    ],
+    "loot": "Relics",
+    "languages": "Common, Draconic",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "description": ""
+      }
+    ],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "17 Slashing, Acid dano."
+      },
+      {
+        "name": "Ataque 2 (Ranged)",
+        "description": "32 Acid dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Acid Breath recharges on 5-6 Dex save 60ft 5ft wide line 54 Acid, Akt 2 is a casting of Melf's Acid Arrow"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "22 poison and disadv on con. saves"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Frightful Presence"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Pounce"
+      }
+    ],
+    "regionalEffects": [
+      {
+        "name": "Efeito Regional",
+        "description": "On fail Poisoned"
+      }
+    ]
+  },
+  {
+    "id": "e97cb010-b642-486c-8461-4b6e3433e2e4",
+    "name": "Adult Blue Dragon",
+    "type": "Dragão",
+    "size": "Enorme",
+    "alignment": "LM",
+    "ac": 19,
+    "hp": 212,
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "burrow": 30
+    },
+    "cr": 16,
+    "passivePerception": 22,
+    "attributes": {
+      "str": 24,
+      "dex": 10,
+      "con": 22,
+      "int": 16,
+      "wis": 14,
+      "cha": 20
+    },
+    "skills": {
+      "Furtividade": 5,
+      "Percepção": 10
+    },
+    "senses": "Visão às cegas 60 ft., Visão no escuro 120 ft.",
+    "resistances": [],
+    "immunities": [
+      "Lightning"
+    ],
+    "loot": "Relics",
+    "languages": "Common, Draconic",
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "21 Slashing, Lighting dano."
+      },
+      {
+        "name": "Ataque 2 (Range AOE)",
+        "description": "14 Thunder dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Lightning Breath recharges on 5-6 90ft 5ft wide line 60 lightning"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "Cast invisibility and fly 1/2"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Cast shatter"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Makes an attack"
+      }
+    ],
+    "regionalEffects": [
+      {
+        "name": "Efeito Regional",
+        "description": "On fail fall into a 2d4 * 10 hole"
+      }
+    ]
+  },
+  {
+    "id": "983fb252-7406-471f-97f9-93fcd837a6f2",
+    "name": "Adult Brass Dragon",
+    "type": "Dragão",
+    "size": "Enorme",
+    "alignment": "CB",
+    "ac": 18,
+    "hp": 172,
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "burrow": 30
+    },
+    "cr": 13,
+    "passivePerception": 21,
+    "attributes": {
+      "str": 22,
+      "dex": 10,
+      "con": 20,
+      "int": 14,
+      "wis": 12,
+      "cha": 16
+    },
+    "skills": {
+      "História": 5,
+      "Persuasão": 5,
+      "Furtividade": 5,
+      "Percepção": 10
+    },
+    "senses": "Visão às cegas 60 ft., Visão no escuro 120 ft.",
+    "resistances": [],
+    "immunities": [
+      "Fire"
+    ],
+    "loot": "Arcana",
+    "languages": "Common, Draconic",
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "21 Slashing, Fire dano."
+      },
+      {
+        "name": "Ataque 2 (Ranged)",
+        "description": "21 Fire dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Akt 2 is casting scorching ray, Fire Breath recharges on 5-6 60ft 5ft wide line 45 fire damage, Sleep Breath 60ft coone cause incapacitated and possibly unconscious"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "Cast scorching Ray"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Pounce"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "27 fire damage and 1/2 speed of target's"
+      }
+    ],
+    "regionalEffects": [
+      {
+        "name": "Efeito Regional",
+        "description": "Can cast Major Image"
+      }
+    ]
+  },
+  {
+    "id": "58f4235a-549f-4873-b888-5ff8331f9a00",
+    "name": "Adult Bronze Dragon",
+    "type": "Dragão",
+    "size": "Enorme",
+    "alignment": "LB",
+    "ac": 18,
+    "hp": 212,
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "swim": 40
+    },
+    "cr": 15,
+    "passivePerception": 22,
+    "attributes": {
+      "str": 24,
+      "dex": 10,
+      "con": 22,
+      "int": 16,
+      "wis": 14,
+      "cha": 20
+    },
+    "skills": {
+      "Intuição": 5,
+      "Furtividade": 5,
+      "Percepção": 10
+    },
+    "senses": "Visão às cegas 60 ft., Visão no escuro 120 ft.",
+    "resistances": [],
+    "immunities": [
+      "Lightning"
+    ],
+    "loot": "Implements",
+    "languages": "Common, Draconic",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "description": ""
+      }
+    ],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "21 Slashing, Lighting dano."
+      },
+      {
+        "name": "Ataque 2 (Ranged)",
+        "description": "18 Radiant dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Akt 2 is casting Guiding Bolt (level 2), Lightning Breath recharges on 5-6 90ft 5ft wide line 55 lightning, Repulsion Breath 30ft coone targets are pushed 60ft and are prone"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "Cast Guiding Bolt"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Pounce"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "10 thunder damage and makes deafened"
+      }
+    ],
+    "regionalEffects": [
+      {
+        "name": "Efeito Regional",
+        "description": "Can cast Control Weather"
+      }
+    ]
+  },
+  {
+    "id": "9caeafbd-3075-4594-a1ec-8f2b705198ec",
+    "name": "Adult Copper Dragon",
+    "type": "Dragão",
+    "size": "Enorme",
+    "alignment": "CB",
+    "ac": 18,
+    "hp": 184,
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "climb": 40
+    },
+    "cr": 14,
+    "passivePerception": 22,
+    "attributes": {
+      "str": 22,
+      "dex": 12,
+      "con": 20,
+      "int": 18,
+      "wis": 14,
+      "cha": 18
+    },
+    "skills": {
+      "Enganação": 5,
+      "Furtividade": 5,
+      "Percepção": 10
+    },
+    "senses": "Visão às cegas 60 ft., Visão no escuro 120 ft.",
+    "resistances": [],
+    "immunities": [
+      "Acid"
+    ],
+    "loot": "Arcana",
+    "languages": "Common, Draconic",
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "21 Slashing, Acid dano."
+      },
+      {
+        "name": "Ataque 2 (Ranged)",
+        "description": "23 Psychic dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Akt 2 is casting mind spike (level 4), Acid Breath recharges on 5-6 60ft 5ft wide line 54 acid damage, Slowing Breath 60ft coone target's speed is halved and can't take reactions, and either an action or bonus action"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "24 psychic damage and -1d6 on ability checks and attack rolls"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Cast Mind Spike (level 4)"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Pounce"
+      }
+    ],
+    "regionalEffects": [
+      {
+        "name": "Efeito Regional",
+        "description": "On fail incapacitated"
+      }
+    ]
+  },
+  {
+    "id": "fd7dd631-69d9-4823-af60-e4f07c591a51",
+    "name": "Adult Deep Dragon",
+    "type": "Dragão",
+    "size": "Enorme",
+    "alignment": "NM",
+    "ac": 17,
+    "hp": 161,
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "swim": 40,
+      "burrow": 30
+    },
+    "cr": 11,
+    "passivePerception": 21,
+    "attributes": {
+      "str": 20,
+      "dex": 14,
+      "con": 16,
+      "int": 16,
+      "wis": 16,
+      "cha": 18
+    },
+    "skills": {
+      "Percepção": 8,
+      "Furtividade": 8
+    },
+    "senses": "Visão às cegas 60 ft., Visão no escuro 150 ft.",
+    "resistances": [
+      "Poison",
+      "Psychic"
+    ],
+    "immunities": [
+      "Charmed",
+      "Frightened",
+      "Poisoned"
+    ],
+    "loot": "Arcana",
+    "languages": "Common, Draconic, Undercommon",
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "19 Slashing, Poison dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "30ft Cone on fail 38 psychic damage and frightened"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "Pounce: move 1/2 speed and atk"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Spore Salvo 30ft on fail save 13 poison and poisoned"
+      }
+    ],
+    "regionalEffects": [
+      {
+        "name": "Efeito Regional",
+        "description": "Preservation of Knowledge: Books and other written forms of communication within 1 mile is protected, Restless Sleep: DC 10 Con on fail do not reduce exhaustion level, Verdant Growth: Plants grow faster"
+      }
+    ]
+  },
+  {
+    "id": "37605b85-ff66-4cf3-ad76-5424d2acc05b",
+    "name": "Adult Gold Dragon",
+    "type": "Dragão",
+    "size": "Enorme",
+    "alignment": "LB",
+    "ac": 19,
+    "hp": 243,
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "swim": 40
+    },
+    "cr": 17,
+    "passivePerception": 24,
+    "attributes": {
+      "str": 26,
+      "dex": 14,
+      "con": 24,
+      "int": 16,
+      "wis": 14,
+      "cha": 24
+    },
+    "skills": {
+      "Intuição": 6,
+      "Persuasão": 6,
+      "Furtividade": 6,
+      "Percepção": 12
+    },
+    "senses": "Visão às cegas 60 ft., Visão no escuro 120 ft.",
+    "resistances": [],
+    "immunities": [
+      "Fire"
+    ],
+    "loot": "Arcana",
+    "languages": "Common, Draconic",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "description": ""
+      }
+    ],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "21 Slashing, Fire dano."
+      },
+      {
+        "name": "Ataque 2 (Ranged)",
+        "description": "18 Radiant dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Akt 2 is casting guiding bolt (level 2), Fire Breath recharge on 5-6 60ft coone 66 fire damage, Waking Breath 60ft coone disadvantage on strength-based rolls and -3 on damage rolls"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "One target in 120ft 10 force damage and is incapacitated"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Cast Guiding Bolt (level 2)"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Pounce"
+      }
+    ],
+    "regionalEffects": [
+      {
+        "name": "Efeito Regional",
+        "description": "Can cast Dream up to 6 miles"
+      }
+    ]
+  },
+  {
+    "id": "60adeb4e-76d9-4286-befb-0e29af0810be",
+    "name": "Adult Green Dragon",
+    "type": "Dragão",
+    "size": "Enorme",
+    "alignment": "LM",
+    "ac": 19,
+    "hp": 207,
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "swim": 40
+    },
+    "cr": 15,
+    "passivePerception": 22,
+    "attributes": {
+      "str": 22,
+      "dex": 12,
+      "con": 20,
+      "int": 18,
+      "wis": 14,
+      "cha": 18
+    },
+    "skills": {
+      "Enganação": 5,
+      "Persuasão": 5,
+      "Furtividade": 5,
+      "Percepção": 10
+    },
+    "senses": "Visão às cegas 60 ft., Visão no escuro 120 ft.",
+    "resistances": [],
+    "immunities": [
+      "Poison",
+      "Poisoned"
+    ],
+    "loot": "Arcana",
+    "languages": "Common, Draconic",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "description": ""
+      }
+    ],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "22 Slashing, Poison dano."
+      },
+      {
+        "name": "Ataque 2 (Ranged)",
+        "description": "14 Psychic dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Akt 2 is casting Mind Spike (level 3), Poison Breath recharge 5-6 60ft coone 56 poison damage"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "Cast Mind Spike (level 3)"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "20ft Sphere 7 poison damage and -2 to AC"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Pounce"
+      }
+    ],
+    "regionalEffects": [
+      {
+        "name": "Efeito Regional",
+        "description": "On fail Poisoned"
+      }
+    ]
+  },
+  {
+    "id": "e6c38169-5c22-4a03-8935-362d7963d4df",
+    "name": "Adult Red Dragon",
+    "type": "Dragão",
+    "size": "Enorme",
+    "alignment": "CM",
+    "ac": 19,
+    "hp": 256,
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "climb": 40
+    },
+    "cr": 17,
+    "passivePerception": 23,
+    "attributes": {
+      "str": 26,
+      "dex": 10,
+      "con": 24,
+      "int": 16,
+      "wis": 12,
+      "cha": 22
+    },
+    "skills": {
+      "Furtividade": 6,
+      "Percepção": 12
+    },
+    "senses": "Visão às cegas 60 ft., Visão no escuro 120 ft.",
+    "resistances": [],
+    "immunities": [
+      "Fire"
+    ],
+    "loot": "Any",
+    "languages": "Common, Draconic",
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "18 Slashing, Fire dano."
+      },
+      {
+        "name": "Ataque 2 (Ranged)",
+        "description": "21 Fire dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Akt 2 is casting Scorching Ray, Fire Breath recharge on 5-6 60ft coone 59 fire damage"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "Cast Command (level 2)"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Cast Scorching Ray"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Pounce"
+      }
+    ],
+    "regionalEffects": [
+      {
+        "name": "Efeito Regional",
+        "description": "On fail Poisoned"
+      }
+    ]
+  },
+  {
+    "id": "7a8fe9bf-d894-4db2-8c3f-38c001276b95",
+    "name": "Adult Silver Dragon",
+    "type": "Dragão",
+    "size": "Enorme",
+    "alignment": "LB",
+    "ac": 19,
+    "hp": 216,
+    "speed": {
+      "walk": 40,
+      "fly": 80
+    },
+    "cr": 16,
+    "passivePerception": 21,
+    "attributes": {
+      "str": 26,
+      "dex": 10,
+      "con": 24,
+      "int": 16,
+      "wis": 12,
+      "cha": 22
+    },
+    "skills": {
+      "História": 5,
+      "Furtividade": 5,
+      "Percepção": 10
+    },
+    "senses": "Visão às cegas 60 ft., Visão no escuro 120 ft.",
+    "resistances": [],
+    "immunities": [
+      "Cold"
+    ],
+    "loot": "Arcana",
+    "languages": "Common, Draconic",
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "21 Slashing, Cold dano."
+      },
+      {
+        "name": "Ataque 2 (Ranged)",
+        "description": "12 Piercing, Cold dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Constitution"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "Dexterity"
+      }
+    ],
+    "regionalEffects": []
+  },
+  {
+    "id": "124a4ef4-dfee-4c9d-9f2f-49f74d8303e4",
+    "name": "Adult Spirit Dragon",
+    "type": "Dragão",
+    "size": "Enorme",
+    "alignment": "N",
+    "ac": 18,
+    "hp": 207,
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "burrow": 30
+    },
+    "cr": 15,
+    "passivePerception": 17,
+    "attributes": {
+      "str": 22,
+      "dex": 14,
+      "con": 20,
+      "int": 20,
+      "wis": 14,
+      "cha": 18
+    },
+    "skills": {
+      "História": 5,
+      "Intuição": 5,
+      "Percepção": 5,
+      "Furtividade": 5
+    },
+    "senses": "Visão às cegas 30 ft., Visão no escuro 120 ft.",
+    "resistances": [
+      "Necrotic"
+    ],
+    "immunities": [],
+    "loot": "Any",
+    "languages": "Common, Draconic, telepathy",
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "22 Slashing, Necrotic dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Ruinous Breath: 60ft cone con save on fail 63 necrotic damage, TimeWarping Breath: 60ft cone wis save on fail target's speed is 1/2 and can only take a bonus action or an action"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "Pounce: move 1/2 speed and atk"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Shattering Wave: cast thunderwave"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Unearth Ruins: 20ft radius 60ft high cylinder within 120ft diffcult terrain on fail save 5 bludgeoning and prone"
+      }
+    ],
+    "regionalEffects": [
+      {
+        "name": "Efeito Regional",
+        "description": "Enchanted Acoustics: Creatures within a mile have advantage on perfomance checks involving singing or playing music and have disadvantage on being charmed, Time Distortion: Creatures age 1/10 the speed."
+      }
+    ]
+  },
+  {
+    "id": "ae66c212-af1f-4223-b004-3bfb65908a6f",
+    "name": "Adult White Dragon",
+    "type": "Dragão",
+    "size": "Enorme",
+    "alignment": "CM",
+    "ac": 18,
+    "hp": 200,
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "swim": 40,
+      "burrow": 30
+    },
+    "cr": 13,
+    "passivePerception": 21,
+    "attributes": {
+      "str": 22,
+      "dex": 10,
+      "con": 22,
+      "int": 8,
+      "wis": 12,
+      "cha": 12
+    },
+    "skills": {
+      "Furtividade": 5,
+      "Percepção": 10
+    },
+    "senses": "Visão às cegas 60 ft., Visão no escuro 120 ft.",
+    "resistances": [],
+    "immunities": [
+      "Cold"
+    ],
+    "loot": "Arcana",
+    "languages": "Common, Draconic",
+    "traits": [
+      {
+        "name": "Ice Walk",
+        "description": ""
+      }
+    ],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "17 Slashing, Cold dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Cold Breath 60ft coone 54 cold damage"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "30ft sphere 7 cold damage and speed reduced to 0"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Cast Fear"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Pounce"
+      }
+    ],
+    "regionalEffects": [
+      {
+        "name": "Efeito Regional",
+        "description": "On fail speed reduced by 10ft"
+      }
+    ]
+  },
+  {
+    "id": "1068b18f-fab6-4fef-8364-96d6d48d16f4",
+    "name": "Air Elemental",
+    "type": "Elemental",
+    "size": "Grande",
+    "alignment": "N",
+    "ac": 15,
+    "hp": 90,
+    "speed": {
+      "walk": 10,
+      "fly": 90
+    },
+    "cr": 5,
+    "passivePerception": 10,
+    "attributes": {
+      "str": 14,
+      "dex": 20,
+      "con": 14,
+      "int": 6,
+      "wis": 10,
+      "cha": 6
+    },
+    "skills": {},
+    "senses": "Visão no escuro 60 ft.",
+    "resistances": [
+      "Bludgeoning",
+      "Lightning",
+      "Piercing",
+      "Slashing"
+    ],
+    "immunities": [
+      "Poison",
+      "Thunder",
+      "Exhaustion",
+      "Grappled",
+      "Paralyzed",
+      "Petrified",
+      "Poisoned",
+      "Prone",
+      "Restrained",
+      "Unconscious"
+    ],
+    "loot": "None",
+    "languages": "Primordial (Auran)",
+    "traits": [
+      {
+        "name": "Air Form",
+        "description": ""
+      }
+    ],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "14 Thunder dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Whirlwind recharges on 5-6 one target on fail 24 thunder damage pushed 20ft and prone"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "regionalEffects": []
+  },
+  {
+    "id": "6f36486c-a5e3-4c43-932d-ece441df408b",
+    "name": "Allosaurus",
+    "type": "Besta",
+    "size": "Grande",
+    "alignment": "N",
+    "ac": 13,
+    "hp": 51,
+    "speed": {
+      "walk": 60
+    },
+    "cr": 2,
+    "passivePerception": 15,
+    "attributes": {
+      "str": 18,
+      "dex": 12,
+      "con": 16,
+      "int": 2,
+      "wis": 12,
+      "cha": 4
+    },
+    "skills": {
+      "Percepção": 4
+    },
+    "senses": null,
+    "resistances": [],
+    "immunities": [],
+    "loot": "None",
+    "languages": "None",
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "15 Piercing dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Claw attack give prone condition"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "regionalEffects": []
+  },
+  {
+    "id": "94d7fbf7-758c-481e-9765-ff442ff698d5",
+    "name": "Ancient Black Dragon",
+    "type": "Dragão",
+    "size": "Imenso",
+    "alignment": "CM",
+    "ac": 22,
+    "hp": 367,
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "swim": 40
+    },
+    "cr": 21,
+    "passivePerception": 26,
+    "attributes": {
+      "str": 26,
+      "dex": 14,
+      "con": 24,
+      "int": 16,
+      "wis": 14,
+      "cha": 22
+    },
+    "skills": {
+      "Furtividade": 7,
+      "Percepção": 14
+    },
+    "senses": "Visão às cegas 60 ft., Visão no escuro 120 ft.",
+    "resistances": [],
+    "immunities": [
+      "Acid"
+    ],
+    "loot": "Relics",
+    "languages": "Common, Draconic",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "description": ""
+      }
+    ],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "26 Slashing, Acid dano."
+      },
+      {
+        "name": "Ataque 2 (Ranged)",
+        "description": "41 Acid dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Acid Breath recharges on 5-6 Dex save 90ft 10ft wide line 67 Acid, Akt 2 is a casting of Melf's Acid Arrow"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "33 poison and disadv on con. saves"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Frightful Presence"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Pounce"
+      }
+    ],
+    "regionalEffects": [
+      {
+        "name": "Efeito Regional",
+        "description": "On fail Poisoned"
+      }
+    ]
+  },
+  {
+    "id": "dc9b0343-9f28-489a-bcef-49360698598c",
+    "name": "Ancient Blue Dragon",
+    "type": "Dragão",
+    "size": "Imenso",
+    "alignment": "LM",
+    "ac": 22,
+    "hp": 481,
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "burrow": 40
+    },
+    "cr": 23,
+    "passivePerception": 27,
+    "attributes": {
+      "str": 28,
+      "dex": 10,
+      "con": 26,
+      "int": 18,
+      "wis": 16,
+      "cha": 24
+    },
+    "skills": {
+      "Furtividade": 7,
+      "Percepção": 14
+    },
+    "senses": "Visão às cegas 60 ft., Visão no escuro 120 ft.",
+    "resistances": [],
+    "immunities": [
+      "Lightning"
+    ],
+    "loot": "Relics",
+    "languages": "Common, Draconic",
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "29 Slashing, Lighting dano."
+      },
+      {
+        "name": "Ataque 2 (Range AOE)",
+        "description": "18 Thunder dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Lightning Breath recharges on 5-6 120ft 10ft wide line 88 lightning"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "Cast invisibility and fly 1/2"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Cast shatter (level 3)"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Makes an attack"
+      }
+    ],
+    "regionalEffects": [
+      {
+        "name": "Efeito Regional",
+        "description": "On fail fall into a 2d4 * 10 hole"
+      }
+    ]
+  },
+  {
+    "id": "1cc58006-e6ea-4666-8626-1d74e873ed64",
+    "name": "Ancient Brass Dragon",
+    "type": "Dragão",
+    "size": "Imenso",
+    "alignment": "CB",
+    "ac": 20,
+    "hp": 332,
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "burrow": 40
+    },
+    "cr": 20,
+    "passivePerception": 24,
+    "attributes": {
+      "str": 26,
+      "dex": 10,
+      "con": 24,
+      "int": 16,
+      "wis": 14,
+      "cha": 22
+    },
+    "skills": {
+      "História": 6,
+      "Persuasão": 6,
+      "Furtividade": 6,
+      "Percepção": 12
+    },
+    "senses": "Visão às cegas 60 ft., Visão no escuro 120 ft.",
+    "resistances": [],
+    "immunities": [
+      "Fire"
+    ],
+    "loot": "Arcana",
+    "languages": "Common, Draconic",
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "26 Slashing, Fire dano."
+      },
+      {
+        "name": "Ataque 2 (Ranged)",
+        "description": "28 Fire dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Akt 2 is casting scorching ray (3rd level), Fire Breath recharges on 5-6 90ft 5ft wide line 58 fire damage, Sleep Breath 90ft coone cause incapacitated and possibly unconscious"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "Cast scorching Ray (level 3)"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Pounce"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "38 fire damage and 1/2 speed of target's"
+      }
+    ],
+    "regionalEffects": [
+      {
+        "name": "Efeito Regional",
+        "description": "Can cast Major Image"
+      }
+    ]
+  },
+  {
+    "id": "01c969f4-80d4-4771-8488-8a961098f4f0",
+    "name": "Ancient Bronze Dragon",
+    "type": "Dragão",
+    "size": "Imenso",
+    "alignment": "LB",
+    "ac": 22,
+    "hp": 444,
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "swim": 40
+    },
+    "cr": 22,
+    "passivePerception": 27,
+    "attributes": {
+      "str": 28,
+      "dex": 10,
+      "con": 26,
+      "int": 18,
+      "wis": 16,
+      "cha": 24
+    },
+    "skills": {
+      "Intuição": 7,
+      "Furtividade": 7,
+      "Percepção": 14
+    },
+    "senses": "Visão às cegas 60 ft., Visão no escuro 120 ft.",
+    "resistances": [],
+    "immunities": [
+      "Lightning"
+    ],
+    "loot": "Implements",
+    "languages": "Common, Draconic",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "description": ""
+      }
+    ],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "27 Slashing, Lighting dano."
+      },
+      {
+        "name": "Ataque 2 (Ranged)",
+        "description": "18 Radiant dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Akt 2 is casting Guiding Bolt (level 2), Lightning Breath recharges on 5-6 120ft 10ft wide line 82 lightning, Repulsion Breath 30ft coone targets are pushed 60ft and are prone"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "Cast Guiding Bolt"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Pounce"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "13 thunder damage and makes deafened"
+      }
+    ],
+    "regionalEffects": [
+      {
+        "name": "Efeito Regional",
+        "description": "Can cast Control Weather"
+      }
+    ]
+  },
+  {
+    "id": "9ca05321-ba7a-48b9-818d-39015c58951f",
+    "name": "Ancient Copper Dragon",
+    "type": "Dragão",
+    "size": "Imenso",
+    "alignment": "CB",
+    "ac": 21,
+    "hp": 367,
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "climb": 40
+    },
+    "cr": 21,
+    "passivePerception": 27,
+    "attributes": {
+      "str": 26,
+      "dex": 12,
+      "con": 24,
+      "int": 20,
+      "wis": 16,
+      "cha": 22
+    },
+    "skills": {
+      "Enganação": 7,
+      "Furtividade": 7,
+      "Percepção": 14
+    },
+    "senses": "Visão às cegas 60 ft., Visão no escuro 120 ft.",
+    "resistances": [],
+    "immunities": [
+      "Acid"
+    ],
+    "loot": "Arcana",
+    "languages": "Common, Draconic",
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "28 Slashing, Acid dano."
+      },
+      {
+        "name": "Ataque 2 (Ranged)",
+        "description": "27 Psychic dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Akt 2 is casting mind spike (level 5), Acid Breath recharges on 5-6 60ft 5ft wide line 54 acid damage, Slowing Breath 60ft coone target's speed is halved and can't take reactions, and either an action or bonus action"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "31 psychic damage and -1d8 on ability checks and attack rolls"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Cast Mind Spike (level 5)"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Pounce"
+      }
+    ],
+    "regionalEffects": [
+      {
+        "name": "Efeito Regional",
+        "description": "On fail incapacitated"
+      }
+    ]
+  },
+  {
+    "id": "91d7994d-ec7a-46fd-a6b4-679f055294b9",
+    "name": "Ancient Deep Dragon",
+    "type": "Dragão",
+    "size": "Imenso",
+    "alignment": "NM",
+    "ac": 20,
+    "hp": 247,
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "swim": 40,
+      "burrow": 40
+    },
+    "cr": 18,
+    "passivePerception": 26,
+    "attributes": {
+      "str": 22,
+      "dex": 16,
+      "con": 22,
+      "int": 18,
+      "wis": 18,
+      "cha": 20
+    },
+    "skills": {
+      "Percepção": 6,
+      "Furtividade": 6
+    },
+    "senses": "Visão às cegas 60 ft., Visão no escuro 300 ft.",
+    "resistances": [
+      "Poison",
+      "Psychic"
+    ],
+    "immunities": [
+      "Charmed",
+      "Frightened",
+      "Poisoned"
+    ],
+    "loot": "Arcana",
+    "languages": "Common, Draconic, Undercommon",
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "22 Slashing, Poison dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "90ft Cone on fail 44 psychic damage and frightened"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "Pounce: move 1/2 speed and atk"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Spore Salvo 30ft on fail save 13 poison and poisoned"
+      }
+    ],
+    "regionalEffects": [
+      {
+        "name": "Efeito Regional",
+        "description": "Preservation of Knowledge: Books and other written forms of communication within 1 mile is protected, Restless Sleep: DC 10 Con on fail do not reduce exhaustion level, Verdant Growth: Plants grow faster"
+      }
+    ]
+  },
+  {
+    "id": "07eaad43-0cdd-443d-bff7-045c31ac0094",
+    "name": "Ancient Gold Dragon",
+    "type": "Dragão",
+    "size": "Imenso",
+    "alignment": "LB",
+    "ac": 22,
+    "hp": 546,
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "swim": 40
+    },
+    "cr": 24,
+    "passivePerception": 27,
+    "attributes": {
+      "str": 30,
+      "dex": 14,
+      "con": 28,
+      "int": 18,
+      "wis": 16,
+      "cha": 28
+    },
+    "skills": {
+      "Intuição": 7,
+      "Persuasão": 7,
+      "Furtividade": 7,
+      "Percepção": 14
+    },
+    "senses": "Visão às cegas 60 ft., Visão no escuro 120 ft.",
+    "resistances": [],
+    "immunities": [
+      "Fire"
+    ],
+    "loot": "Arcana",
+    "languages": "Common, Draconic",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "description": ""
+      }
+    ],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "28 Slashing, Fire dano."
+      },
+      {
+        "name": "Ataque 2 (Ranged)",
+        "description": "25 Radiant dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Akt 2 is casting guiding bolt (level 4), Fire Breath recharge on 5-6 90ft coone 71 fire damage, Waking Breath 90ft coone disadvantage on strength-based rolls and -5 on damage rolls"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "One target in 120ft 24 force damage and is incapacitated"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Cast Guiding Bolt (level 4)"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Pounce"
+      }
+    ],
+    "regionalEffects": [
+      {
+        "name": "Efeito Regional",
+        "description": "Can cast Dream up to 6 miles"
+      }
+    ]
+  },
+  {
+    "id": "05f4e7c1-35f9-46d2-ad6c-93b69c35cd52",
+    "name": "Ancient Green Dragon",
+    "type": "Dragão",
+    "size": "Imenso",
+    "alignment": "LM",
+    "ac": 21,
+    "hp": 402,
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "swim": 40
+    },
+    "cr": 22,
+    "passivePerception": 27,
+    "attributes": {
+      "str": 26,
+      "dex": 12,
+      "con": 24,
+      "int": 20,
+      "wis": 16,
+      "cha": 22
+    },
+    "skills": {
+      "Enganação": 7,
+      "Persuasão": 7,
+      "Furtividade": 7,
+      "Percepção": 14
+    },
+    "senses": "Visão às cegas 60 ft., Visão no escuro 120 ft.",
+    "resistances": [],
+    "immunities": [
+      "Poison",
+      "Poisoned"
+    ],
+    "loot": "Arcana",
+    "languages": "Common, Draconic",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "description": ""
+      }
+    ],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "27 Slashing, Poison dano."
+      },
+      {
+        "name": "Ataque 2 (Ranged)",
+        "description": "21 Psychic dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Akt 2 is casting Mind Spike (level 5), poison Breath recharge 5-6 90ft coone 77 poison damage"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "Cast Mind Spike (level 5)"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "30ft Sphere 17 poison damage and -2 to AC"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Pounce"
+      }
+    ],
+    "regionalEffects": [
+      {
+        "name": "Efeito Regional",
+        "description": "On fail Poisoned"
+      }
+    ]
+  },
+  {
+    "id": "1e773a5e-e177-49c8-8cfb-b7fa4a4e068b",
+    "name": "Ancient Red Dragon",
+    "type": "Dragão",
+    "size": "Imenso",
+    "alignment": "CM",
+    "ac": 22,
+    "hp": 507,
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "climb": 40
+    },
+    "cr": 24,
+    "passivePerception": 26,
+    "attributes": {
+      "str": 30,
+      "dex": 10,
+      "con": 28,
+      "int": 18,
+      "wis": 14,
+      "cha": 26
+    },
+    "skills": {
+      "Furtividade": 7,
+      "Percepção": 14
+    },
+    "senses": "Visão às cegas 60 ft., Visão no escuro 120 ft.",
+    "resistances": [],
+    "immunities": [
+      "Fire"
+    ],
+    "loot": "Any",
+    "languages": "Common, Draconic",
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "29 Slashing, Fire dano."
+      },
+      {
+        "name": "Ataque 2 (Ranged)",
+        "description": "28 Fire dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Akt 2 is casting Scorching Ray (Level 3), Fire Breath recharge on 5-6 90ft coone 91 fire damage"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "Cast Command (level 2)"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Cast Scorching Ray (level 3)"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Pounce"
+      }
+    ],
+    "regionalEffects": [
+      {
+        "name": "Efeito Regional",
+        "description": "On fail Poisoned"
+      }
+    ]
+  },
+  {
+    "id": "34a024d7-841a-46c5-ab05-3b46517b5af3",
+    "name": "Ancient Silver Dragon",
+    "type": "Dragão",
+    "size": "Imenso",
+    "alignment": "LB",
+    "ac": 22,
+    "hp": 468,
+    "speed": {
+      "walk": 40,
+      "fly": 80
+    },
+    "cr": 23,
+    "passivePerception": 26,
+    "attributes": {
+      "str": 30,
+      "dex": 10,
+      "con": 28,
+      "int": 18,
+      "wis": 14,
+      "cha": 26
+    },
+    "skills": {
+      "História": 7,
+      "Furtividade": 7,
+      "Percepção": 14
+    },
+    "senses": "Visão às cegas 60 ft., Visão no escuro 120 ft.",
+    "resistances": [],
+    "immunities": [
+      "Cold"
+    ],
+    "loot": "Arcana",
+    "languages": "Common, Draconic",
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "28 Slashing, Cold dano."
+      },
+      {
+        "name": "Ataque 2 (Ranged)",
+        "description": "16 Piercing, Cold dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Constitution"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "Dexterity"
+      }
+    ],
+    "regionalEffects": []
+  },
+  {
+    "id": "01b145a8-731e-4bf8-a70a-14feade70796",
+    "name": "Ancient Spirit Dragon",
+    "type": "Dragão",
+    "size": "Imenso",
+    "alignment": "N",
+    "ac": 21,
+    "hp": 420,
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "burrow": 30
+    },
+    "cr": 22,
+    "passivePerception": 21,
+    "attributes": {
+      "str": 26,
+      "dex": 14,
+      "con": 24,
+      "int": 24,
+      "wis": 18,
+      "cha": 22
+    },
+    "skills": {
+      "História": 7,
+      "Intuição": 7,
+      "Percepção": 7,
+      "Furtividade": 7
+    },
+    "senses": "Visão às cegas 60 ft., Visão no escuro 120 ft.",
+    "resistances": [
+      "Necrotic"
+    ],
+    "immunities": [],
+    "loot": "Any",
+    "languages": "Common, Draconic, telepathy",
+    "traits": [],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "28 Slashing, Necrotic dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Ruinous Breath: 60ft cone con save on fail 63 necrotic damage, TimeWarping Breath: 60ft cone wis save on fail target's speed is 1/2 and can only take a bonus action or an action"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "Pounce: move 1/2 speed and atk"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Shattering Wave: cast thunderwave"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Unearth Ruins: 20ft radius 60ft high cylinder within 120ft diffcult terrain on fail save 5 bludgeoning and prone"
+      }
+    ],
+    "regionalEffects": [
+      {
+        "name": "Efeito Regional",
+        "description": "Enchanted Acoustics: Creatures within a mile have advantage on perfomance checks involving singing or playing music and have disadvantage on being charmed, Time Distortion: Creatures age 1/10 the speed."
+      }
+    ]
+  },
+  {
+    "id": "844b0112-09cd-4fdb-ba54-b4d78e1e7b36",
+    "name": "Ancient White Dragon",
+    "type": "Dragão",
+    "size": "Imenso",
+    "alignment": "CM",
+    "ac": 20,
+    "hp": 333,
+    "speed": {
+      "walk": 40,
+      "fly": 80,
+      "swim": 40,
+      "burrow": 40
+    },
+    "cr": 20,
+    "passivePerception": 23,
+    "attributes": {
+      "str": 26,
+      "dex": 10,
+      "con": 26,
+      "int": 10,
+      "wis": 12,
+      "cha": 18
+    },
+    "skills": {
+      "Furtividade": 6,
+      "Percepção": 12
+    },
+    "senses": "Visão às cegas 60 ft., Visão no escuro 120 ft.",
+    "resistances": [],
+    "immunities": [
+      "Cold"
+    ],
+    "loot": "Arcana",
+    "languages": "Common, Draconic",
+    "traits": [
+      {
+        "name": "Ice Walk",
+        "description": ""
+      }
+    ],
+    "actions": [
+      {
+        "name": "Ataque 1 (Melee)",
+        "description": "24 Slashing, Cold dano."
+      },
+      {
+        "name": "Habilidades Especiais",
+        "description": "Cold Breath 90ft coone 63 cold damage"
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Ação Lendária",
+        "description": "30ft sphere 14 cold damage and speed reduced to 0"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Cast Fear"
+      },
+      {
+        "name": "Ação Lendária",
+        "description": "Pounce"
+      }
+    ],
+    "regionalEffects": [
+      {
+        "name": "Efeito Regional",
+        "description": "On fail speed reduced by 10ft"
+      }
+    ]
+  }
+]

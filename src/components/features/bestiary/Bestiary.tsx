@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { MonsterList } from './MonsterList';
 import { MonsterSheet } from './MonsterSheet';
 import { MonsterForm } from './MonsterForm';
-import { MONSTERS } from '../data/monsters';
-import type { Monster } from '../types';
+import MONSTERS from '../../../data/monsters.json';
+import type { Monster } from '../../../types';
 
 interface BestiaryProps {
     savedNotes: Record<string, string>;
@@ -20,7 +20,7 @@ export function Bestiary({ savedNotes, onSaveNote, customMonsters, onSaveMonster
     const [selectedMonster, setSelectedMonster] = useState<Monster | null>(null);
 
     // Combine default monsters with custom ones
-    const allMonsters = [...MONSTERS, ...customMonsters];
+    const allMonsters = [...(MONSTERS as unknown as Monster[]), ...customMonsters];
 
     const handleSelectMonster = (monster: Monster) => {
         setSelectedMonster(monster);

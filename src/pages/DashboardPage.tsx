@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import type { Campaign } from './types';
+import type { Campaign } from '../types';
 
 interface DashboardProps {
   user: { username: string };

@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import type { Character } from '../types';
+import type { Character } from '../../../types';
 import { CharacterList } from './CharacterList';
 import { CharacterForm } from './CharacterForm';
 import { CharacterSheet } from './CharacterSheet';
